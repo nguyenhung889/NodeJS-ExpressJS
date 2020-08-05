@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": "CBJSKGSKFDSLGIJ",
+      "name": "CÔNG TY CỔ PHẦN CÔNG NGHỆ VÀ ĐẦU TƯ BSC VIỆT NAM"
+    },
+    {
+      "id": "CIRKKDJFDKFDLFE",
+      "name": "CÔNG TY CỔ PHẦN ĐẦU TƯ XÂY DỰNG VÀ THƯƠNG MẠI TÂY TRÀNG AN"
+    },
+    {
+      "id": "RX1JuGeXA",
+      "name": "CÔNG TY CỔ PHẦN TOKYO TECH LAB VIỆT NAM"
+    },
+    {
+      "name": "Template_010907165811",
+      "phone": "0964387230",
+      "id": "sjWNPwrsS",
+      "email": "hung.test0812@gmail.com",
+      "password": "123456"
+    }
+  ]
+}

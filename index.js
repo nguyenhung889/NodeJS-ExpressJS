@@ -1,8 +1,12 @@
+
+require('dotenv').config();
+
 const express  = require('express');
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser')
 
 var userRoutes = require('./route/users.route');
+var productRoutes = require('./route/products.route');
 var authRoutes = require('./route/auth.route');
 var authMiddleware = require('./middleware/auth.middleware');
 
@@ -17,7 +21,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 app.use(bodyParser.json());
-app.use(cookieParser());
+app.use(cookieParser('nodejs-expressjs'));
 
 // app.get('/', (request, response) => response.send('Hi'));
 app.use(express.static('public'))
@@ -29,5 +33,6 @@ app.get('/', (req, res) => {
 });
 
 app.use('/users',authMiddleware.postLogin, userRoutes);
+app.use('/products',authMiddleware.postLogin, productRoutes);
 app.use('/auth', authRoutes);
 app.listen(port, () => console.log('Server is listening in port ' + port));

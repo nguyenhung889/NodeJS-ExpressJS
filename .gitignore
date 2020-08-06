@@ -105,4 +105,5 @@ dist
 .tern-port
 =======
 /node_modules
+/.env
 >>>>>>> 3d4d9bf... nodejs lesson

@@ -13,11 +13,153 @@
       "name": "CÔNG TY CỔ PHẦN TOKYO TECH LAB VIỆT NAM"
     },
     {
-      "name": "Template_010907165811",
+      "name": "Đỗ Mạnh Hùng",
       "phone": "0964387230",
       "id": "sjWNPwrsS",
       "email": "hung.test0812@gmail.com",
-      "password": "123456"
+      "password": "e10adc3949ba59abbe56e057f20f883e"
+    }
+  ],
+  "products": [
+    {
+      "id": "9e9a3801-77df-4492-be18-4f7d21ca9bbc",
+      "name": "Grapefruit - Pink",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 5379
+    },
+    {
+      "id": "8ea73347-b791-4ea4-915c-c4fde5fe974c",
+      "name": "Lettuce - Curly Endive",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 7766
+    },
+    {
+      "id": "d7d7d7bd-e529-4d0b-a295-2e806a9c8ed4",
+      "name": "Pasta - Canelloni, Single Serve",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 3402
+    },
+    {
+      "id": "b3ad9683-4e48-4610-b2cc-1527ba81d892",
+      "name": "Trout - Rainbow, Frozen",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 9559
+    },
+    {
+      "id": "7f543cfc-3162-4333-bd05-e585d7b59e28",
+      "name": "Tea - Herbal I Love Lemon",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 7683
+    },
+    {
+      "id": "442b7aa9-235a-44a0-a7fb-e71ccabf0849",
+      "name": "Duck - Fat",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 3012
+    },
+    {
+      "id": "f8fa9e51-0cf7-49d4-8118-f48acaf600fe",
+      "name": "Potatoes - Idaho 100 Count",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 7250
+    },
+    {
+      "id": "caf70164-d2a6-4831-882e-8a84d4f63a0f",
+      "name": "Mix - Cappucino Cocktail",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 8010
+    },
+    {
+      "id": "3f49988d-6c7e-4c5a-8e8c-275e8bd5f03d",
+      "name": "Fuji Apples",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 7242
+    },
+    {
+      "id": "d9400df7-1c8e-4854-9c07-d9671bed0e81",
+      "name": "Figs",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 1146
+    },
+    {
+      "id": "299f7032-26ad-41ac-a7a5-78e016814634",
+      "name": "Lettuce - Boston Bib - Organic",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 9301
+    },
+    {
+      "id": "97df71bc-c7d5-4546-a598-4bea0bd487b3",
+      "name": "Soup - Campbells, Minestrone",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 9761
+    },
+    {
+      "id": "1bd47084-978c-43d5-a75b-8b1fe30cd33f",
+      "name": "Soup - Campbells, Lentil",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 4090
+    },
+    {
+      "id": "77c6f204-6651-4aa0-a596-2e969f98613c",
+      "name": "Papadam",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 887
+    },
+    {
+      "id": "141e52e0-a3e7-4200-8886-fd5d54e7b491",
+      "name": "Guava",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 4986
+    },
+    {
+      "id": "99cedf25-bde6-448b-ac33-604697553cea",
+      "name": "Longos - Assorted Sandwich",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 2740
+    },
+    {
+      "id": "10e6295e-f391-4af5-9276-4a73e03f8fd2",
+      "name": "Beans - Fava Fresh",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 7061
+    },
+    {
+      "id": "596c513e-0da2-4385-83a4-c8cceecbab4e",
+      "name": "Milk - Condensed",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 936
+    },
+    {
+      "id": "72004aa2-86de-43e0-a93b-36f9c5f2f29b",
+      "name": "Pernod",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 4750
+    },
+    {
+      "id": "fe9783d4-804c-4f94-9a0e-4a9f2db01347",
+      "name": "Cheese - Cheddar With Claret",
+      "image": "https://loremflickr.com/320/240?random=3",
+      "description": "error: undefined method `/' for nil:NilClass",
+      "price": 1089
     }
   ]
 }

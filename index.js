@@ -5,10 +5,12 @@ const express  = require('express');
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser')
 
+
 var userRoutes = require('./route/users.route');
 var productRoutes = require('./route/products.route');
 var authRoutes = require('./route/auth.route');
 var authMiddleware = require('./middleware/auth.middleware');
+
 
 var db = require('./db');
 

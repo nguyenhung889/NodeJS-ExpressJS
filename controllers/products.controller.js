@@ -19,4 +19,5 @@ module.exports.index = (req, res) => {
     });
 
     //method 2: Use lodash drop() and take()
+        //products: db.get('products').drop(start).take(perPage).value()
 }

@@ -9,7 +9,9 @@ var cookieParser = require('cookie-parser')
 var userRoutes = require('./route/users.route');
 var productRoutes = require('./route/products.route');
 var authRoutes = require('./route/auth.route');
+var cartRoutes = require('./route/cart.route');
 var authMiddleware = require('./middleware/auth.middleware');
+var sessionMiddleware = require('./middleware/session.middleware');
 
 
 var db = require('./db');
@@ -24,6 +26,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 app.use(cookieParser('nodejs-expressjs'));
+app.use(sessionMiddleware);
 
 // app.get('/', (request, response) => response.send('Hi'));
 app.use(express.static('public'))
@@ -37,4 +40,6 @@ app.get('/', (req, res) => {
 app.use('/users',authMiddleware.postLogin, userRoutes);
 app.use('/products',authMiddleware.postLogin, productRoutes);
 app.use('/auth', authRoutes);
+app.use('/cart', cartRoutes);
+
 app.listen(port, () => console.log('Server is listening in port ' + port));

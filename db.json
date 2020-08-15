@@ -167,5 +167,21 @@
       "description": "error: undefined method `/' for nil:NilClass",
       "price": 1089
     }
+  ],
+  "sessions": [
+    {
+      "id": "wwKJlwbc0",
+      "cart": {
+        "9e9a3801-77df-4492-be18-4f7d21ca9bbc": 1
+      }
+    },
+    {
+      "id": "FoRrRV4GR",
+      "cart": {
+        "9e9a3801-77df-4492-be18-4f7d21ca9bbc": 3,
+        "8ea73347-b791-4ea4-915c-c4fde5fe974c": 1,
+        "b3ad9683-4e48-4610-b2cc-1527ba81d892": 1
+      }
+    }
   ]
 }
